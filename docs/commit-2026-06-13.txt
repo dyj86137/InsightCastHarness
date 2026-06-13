@@ -1,0 +1,1 @@
+normalize loop state transitions and terminal results 
