@@ -1,1 +1,2 @@
 implement memory manager and retrieval pipeline 
+add lexical and embedding memory indexes 
