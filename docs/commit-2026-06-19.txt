@@ -1,2 +1,3 @@
 persist jsonl traces and runtime events 
 add runner checkpoints and replay support 
+validate mcp transport and trace event conversion 
