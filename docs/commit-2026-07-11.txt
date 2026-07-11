@@ -1,2 +1,3 @@
 generate structured interview summaries 
 keep transcript and summary states restartable 
+validate summary schema and evidence links 
