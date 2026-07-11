@@ -1,1 +1,2 @@
 generate structured interview summaries 
+keep transcript and summary states restartable 
