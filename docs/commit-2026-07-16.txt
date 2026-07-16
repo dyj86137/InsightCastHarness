@@ -1,0 +1,1 @@
+expose fastapi dashboard and management endpoints 
