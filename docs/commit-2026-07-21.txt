@@ -1,1 +1,2 @@
 add review and content management pages 
+add run monitoring and brief presentation views 
