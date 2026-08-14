@@ -1,2 +1,0 @@
-ingest and deduplicate discovered candidates 
-verify discovery failures and candidate deduplication 

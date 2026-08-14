@@ -1,1 +1,0 @@
-expose monitoring capabilities through mcp server 

@@ -1,1 +1,0 @@
-define monitoring domain models and enums 

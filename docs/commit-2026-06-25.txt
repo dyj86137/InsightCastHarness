@@ -1,2 +1,0 @@
-add sqlite persistence for cross process state 
-cover repository round trips and model validation 

@@ -1,2 +1,0 @@
-generate markdown daily briefs 
-verify ranking and daily brief output 

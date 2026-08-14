@@ -1,2 +1,0 @@
-add context compression and pruning strategies 
-verify context budget and pruning invariants 

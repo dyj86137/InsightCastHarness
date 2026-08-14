@@ -1,1 +1,0 @@
-orchestrate discovery runner and run entrypoint 

@@ -1,3 +1,0 @@
-add retry fallback and builtin tool adapters 
-cover tool execution and error normalization 
-integrate mcp discovery and skill tool adapters 

@@ -1,2 +1,0 @@
-implement transcript provider fallback chain 
-cover transcript routing and partial failures 

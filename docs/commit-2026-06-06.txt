@@ -1,2 +1,0 @@
-implement openai compatible llm adapter 
-cover token estimation and fake provider behavior 

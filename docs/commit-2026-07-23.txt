@@ -1,2 +1,0 @@
-package monitoring workflow as agent skill 
-document local setup and configuration boundaries 
