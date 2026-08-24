@@ -1,21 +1,18 @@
-# Host Configuration
+# 主机配置
 
-Start the InsightCast FastAPI service first. From the backend directory:
+请先启动 InsightCast FastAPI 服务。在 backend 目录中执行：
 
 ```powershell
 $env:PYTHONPATH="src;..\..\..\myHarness\myHarness-V2\src"
 uvicorn insightcast.api.main:app --host 127.0.0.1 --port 8766
 ```
 
-The MCP process talks to that service through
-`INSIGHTCAST_API_BASE_URL` (default: `http://127.0.0.1:8766`). The MCP command
-can be started from any working directory because the launcher bootstraps the
-source paths itself.
+MCP 进程通过 `INSIGHTCAST_API_BASE_URL`（默认值：`http://127.0.0.1:8766`）与该服务通信。
+由于启动器会自动配置源代码路径，MCP 命令可以从任意工作目录启动。
 
 ## Cursor
 
-Put this in the project's `.cursor/mcp.json`, replacing the absolute path with
-the checkout path on the target machine:
+将以下内容放入项目的 `.cursor/mcp.json`，并将绝对路径替换为目标机器上的项目路径：
 
 ```json
 {
@@ -33,9 +30,9 @@ the checkout path on the target machine:
 }
 ```
 
-## GitHub Copilot in VS Code
+## VS Code 中的 GitHub Copilot
 
-Put this in `.vscode/mcp.json`:
+将以下内容放入 `.vscode/mcp.json`：
 
 ```json
 {
@@ -54,5 +51,4 @@ Put this in `.vscode/mcp.json`:
 }
 ```
 
-The exact UI and config filename can vary by Copilot host version; the MCP
-server command and tool contract stay the same.
+具体界面和配置文件名可能因 Copilot 宿主版本而异；MCP 服务命令和工具契约保持不变。
