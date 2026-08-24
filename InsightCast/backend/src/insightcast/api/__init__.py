@@ -1,0 +1,1 @@
+"""InsightCast FastAPI application layer."""

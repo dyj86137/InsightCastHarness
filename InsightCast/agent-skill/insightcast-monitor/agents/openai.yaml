@@ -1,0 +1,14 @@
+interface:
+  display_name: "InsightCast Monitor"
+  short_description: "查询和运行 InsightCast 行业动态监控"
+  default_prompt: "Use $insightcast-monitor to inspect the latest InsightCast industry brief."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "insightcast"
+      description: "InsightCast monitoring tools exposed by the local MCP server"
+      transport: "stdio"
+
+policy:
+  allow_implicit_invocation: true

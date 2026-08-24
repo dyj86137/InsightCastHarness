@@ -1,0 +1,20 @@
+# Secrets and local configuration
+InsightCast/backend/.env*
+InsightCast/backend/secrets/*
+
+# Runtime data, databases, audio, traces and checkpoints
+InsightCast/backend/data/*
+!InsightCast/backend/data/README.md
+
+# Python
+InsightCast/backend/.pytest_cache/
+InsightCast/backend/**/__pycache__/
+Harness/.pytest_cache/
+Harness/**/__pycache__/
+*.py[cod]
+
+# Frontend
+InsightCast/frontend/node_modules/
+InsightCast/frontend/dist/
+InsightCast/frontend/.env*
+InsightCast/frontend/*.tsbuildinfo

@@ -1,0 +1,348 @@
+{
+  "industries": [
+    {
+      "id": "industry_ai",
+      "name": "Artificial Intelligence",
+      "slug": "ai",
+      "description": "AI infrastructure, models, applications, and agents.",
+      "keywords": ["AI", "LLM", "agent", "GPU"]
+    },
+    {
+      "id": "industry_enterprise_software",
+      "name": "Enterprise Software",
+      "slug": "enterprise_software",
+      "keywords": ["SaaS", "workflow", "developer tools"]
+    },
+    {
+      "id": "industry_consumer",
+      "name": "Consumer Technology",
+      "slug": "consumer",
+      "description": "Consumer electronics, devices, and consumer technology products.",
+      "keywords": ["consumer electronics", "smartphone", "devices", "hardware", "consumer tech"]
+    },
+    {
+      "id": "industry_retail",
+      "name": "Retail",
+      "slug": "retail",
+      "description": "Physical retail, stores, brands, and retail operations.",
+      "keywords": ["retail", "stores", "shopping", "retail operations"]
+    },
+    {
+      "id": "industry_ecommerce",
+      "name": "E-commerce",
+      "slug": "ecommerce",
+      "description": "Online retail, marketplaces, and direct-to-consumer commerce.",
+      "keywords": ["e-commerce", "online retail", "marketplace", "DTC"]
+    },
+    {
+      "id": "industry_auto",
+      "name": "Automotive",
+      "slug": "auto",
+      "description": "Automotive, electric vehicles, and intelligent mobility.",
+      "keywords": ["EV", "electric vehicle", "automotive", "smart car"]
+    },
+    {
+      "id": "industry_finance",
+      "name": "Finance",
+      "slug": "finance",
+      "description": "Financial services, quantitative finance, trading, and capital markets.",
+      "keywords": ["quantitative finance", "trading", "hedge fund", "capital markets"]
+    },
+    {
+      "id": "industry_cloud",
+      "name": "Cloud Infrastructure",
+      "slug": "cloud",
+      "description": "Cloud infrastructure, AI infrastructure, and computing platforms.",
+      "keywords": ["cloud", "AI infrastructure", "compute", "data center"]
+    },
+    {
+      "id": "industry_energy",
+      "name": "Energy",
+      "slug": "energy",
+      "description": "Energy, batteries, renewable power, and energy transition.",
+      "keywords": ["energy", "battery", "renewable energy", "solar", "energy storage"]
+    },
+    {
+      "id": "industry_media",
+      "name": "Media and Internet Platforms",
+      "slug": "media",
+      "description": "Internet platforms, social media, content, gaming, and digital advertising.",
+      "keywords": ["social media", "internet platform", "content", "gaming", "digital advertising"]
+    }
+  ],
+  "people": [
+    {
+      "id": "person_jensen_huang",
+      "name": "Jensen Huang",
+      "display_name": "Jensen Huang",
+      "aliases": ["黄仁勋"],
+      "companies": ["NVIDIA"],
+      "title": "Founder and CEO",
+      "industries": ["ai", "cloud"],
+      "importance": 0.95,
+      "notes": "Track long-form interviews and keynote-style conversations."
+    },
+    {
+      "id": "person_sam_altman",
+      "name": "Sam Altman",
+      "display_name": "Sam Altman",
+      "aliases": ["Samuel Altman"],
+      "companies": ["OpenAI"],
+      "title": "CEO",
+      "industries": ["ai"],
+      "importance": 0.9
+    },
+    {
+      "id": "person_lei_jun",
+      "name": "Lei Jun",
+      "display_name": "Lei Jun",
+      "aliases": ["雷军", "Jun Lei"],
+      "companies": ["Xiaomi", "小米"],
+      "title": "Founder, Chairman and CEO",
+      "industries": ["consumer", "auto", "ai"],
+      "importance": 0.9,
+      "notes": "Track long-form interviews about consumer technology, electric vehicles, and entrepreneurship."
+    },
+    {
+      "id": "person_duan_yongping",
+      "name": "Duan Yongping",
+      "display_name": "Duan Yongping",
+      "aliases": ["段永平"],
+      "companies": ["BBK Electronics", "步步高", "OPPO", "vivo"],
+      "title": "Founder and Investor",
+      "industries": ["consumer", "finance"],
+      "importance": 0.82,
+      "notes": "Track interviews and public conversations about long-term investing, business management, consumer technology, and entrepreneurship."
+    },
+    {
+      "id": "person_jack_ma",
+      "name": "Jack Ma",
+      "display_name": "Jack Ma",
+      "aliases": ["马云", "Ma Yun"],
+      "companies": ["Alibaba", "阿里巴巴", "Ant Group", "蚂蚁集团"],
+      "title": "Founder and Former Executive Chairman",
+      "industries": ["ecommerce", "finance", "enterprise_software", "consumer"],
+      "importance": 0.92,
+      "notes": "Track interviews and public conversations about e-commerce, entrepreneurship, fintech, leadership, and global business."
+    },
+    {
+      "id": "person_dario_amodei",
+      "name": "Dario Amodei",
+      "display_name": "Dario Amodei",
+      "aliases": ["达里奥·阿莫代伊", "Dario"],
+      "companies": ["Anthropic"],
+      "title": "Co-founder and CEO",
+      "industries": ["ai", "enterprise_software", "cloud"],
+      "importance": 0.92,
+      "notes": "Track long-form interviews about foundation models, AI safety, enterprise adoption, and infrastructure."
+    },
+    {
+      "id": "person_wang_ning",
+      "name": "Wang Ning",
+      "display_name": "Wang Ning",
+      "aliases": ["王宁"],
+      "companies": ["Pop Mart", "泡泡玛特"],
+      "title": "Founder and CEO",
+      "industries": ["consumer", "retail", "ecommerce"],
+      "importance": 0.8,
+      "notes": "Track interviews about consumer brands, retail expansion, IP commercialization, and global growth."
+    },
+    {
+      "id": "person_liu_qiangdong",
+      "name": "Richard Liu",
+      "display_name": "Richard Liu",
+      "aliases": ["刘强东", "Liu Qiangdong"],
+      "companies": ["JD.com", "京东"],
+      "title": "Founder and Chairman",
+      "industries": ["ecommerce", "retail", "consumer"],
+      "importance": 0.88,
+      "notes": "Track interviews about e-commerce, logistics, retail operations, and business management."
+    },
+    {
+      "id": "person_elon_musk",
+      "name": "Elon Musk",
+      "display_name": "Elon Musk",
+      "aliases": ["埃隆·马斯克", "伊隆·马斯克", "Elon"],
+      "companies": ["Tesla", "SpaceX", "xAI", "Neuralink"],
+      "title": "Founder and CEO",
+      "industries": ["ai", "auto", "energy"],
+      "importance": 0.98,
+      "notes": "Track long-form interviews about AI, electric vehicles, space technology, energy, and entrepreneurship."
+    },
+    {
+      "id": "person_pony_ma",
+      "name": "Pony Ma",
+      "display_name": "Pony Ma",
+      "aliases": ["马化腾", "Ma Huateng"],
+      "companies": ["Tencent", "腾讯"],
+      "title": "Founder and CEO",
+      "industries": ["ai", "enterprise_software", "media", "consumer"],
+      "importance": 0.9,
+      "notes": "Track interviews about internet platforms, gaming, AI, digital services, and organizational management."
+    },
+    {
+      "id": "person_steve_jobs",
+      "name": "Steve Jobs",
+      "display_name": "Steve Jobs",
+      "aliases": ["乔布斯", "Steven Paul Jobs"],
+      "companies": ["Apple", "苹果"],
+      "title": "Co-founder and former CEO",
+      "industries": ["consumer", "enterprise_software"],
+      "importance": 0.95,
+      "notes": "Recommended person: track interviews and public conversations about product design, technology, leadership, and entrepreneurship."
+    },
+    {
+      "id": "person_zhang_yiming",
+      "name": "Zhang Yiming",
+      "display_name": "Zhang Yiming",
+      "aliases": ["张一鸣"],
+      "companies": ["ByteDance", "字节跳动", "TikTok"],
+      "title": "Founder and Former CEO",
+      "industries": ["media", "consumer", "ai", "enterprise_software"],
+      "importance": 0.93,
+      "notes": "Recommended person: track interviews and public conversations about content platforms, recommendation systems, AI, and global business."
+    }
+  ],
+  "sources": [
+    {
+      "id": "source_youtube_search",
+      "name": "YouTube Search",
+      "type": "youtube",
+      "authority": 0.65,
+      "languages": ["en"],
+      "industries": ["ai", "enterprise_software", "consumer", "retail", "ecommerce", "auto", "finance", "cloud", "energy", "media"],
+      "metadata": {
+        "api_key_env": "YOUTUBE_API_KEY",
+        "search_scope": "platform",
+        "max_results": 25,
+        "order": "relevance"
+      }
+    },
+    {
+      "id": "source_bilibili_search",
+      "name": "Bilibili Search",
+      "type": "bilibili",
+      "authority": 0.55,
+      "languages": ["zh"],
+      "industries": ["enterprise_software", "ai", "consumer", "retail", "ecommerce", "auto", "finance", "cloud", "energy", "media"],
+      "metadata": {
+        "search_scope": "platform",
+        "max_results": 25,
+        "order": "pubdate"
+      }
+    },
+    {
+      "id": "source_vimeo_search",
+      "name": "Vimeo Search",
+      "type": "vimeo",
+      "url": "https://vimeo.com/",
+      "enabled": false,
+      "authority": 0.6,
+      "languages": ["en"],
+      "industries": ["ai", "enterprise_software", "consumer", "retail", "ecommerce", "auto", "finance", "cloud", "energy", "media"],
+      "metadata": {
+        "access_token_env": "VIMEO_ACCESS_TOKEN",
+        "search_scope": "platform",
+        "max_results": 25,
+        "order": "relevant"
+      }
+    },
+    {
+      "id": "source_dailymotion_search",
+      "name": "Dailymotion Search",
+      "type": "dailymotion",
+      "url": "https://www.dailymotion.com/",
+      "enabled": false,
+      "authority": 0.5,
+      "languages": ["en"],
+      "industries": ["ai", "enterprise_software", "consumer", "retail", "ecommerce", "auto", "finance", "cloud", "energy", "media"],
+      "metadata": {
+        "search_scope": "platform",
+        "max_results": 25
+      }
+    },
+    {
+      "id": "source_twitch_vods",
+      "name": "Twitch VOD",
+      "type": "twitch",
+      "url": "https://www.twitch.tv/",
+      "enabled": false,
+      "authority": 0.5,
+      "languages": ["en"],
+      "industries": ["ai", "enterprise_software", "consumer", "media"],
+      "metadata": {
+        "client_id_env": "TWITCH_CLIENT_ID",
+        "access_token_env": "TWITCH_ACCESS_TOKEN",
+        "video_type": "archive",
+        "query_match_mode": "all",
+        "max_results": 25
+      }
+    },
+    {
+      "id": "source_peertube_search",
+      "name": "PeerTube Search",
+      "type": "peertube",
+      "url": "https://peertube.social/",
+      "enabled": false,
+      "authority": 0.45,
+      "languages": ["en"],
+      "industries": ["ai", "enterprise_software", "consumer", "media"],
+      "metadata": {
+        "api_base_url": "https://peertube.social",
+        "search_scope": "instance",
+        "max_results": 25,
+        "order": "-publishedAt"
+      }
+    }
+  ],
+  "interests": [
+    {
+      "id": "interest_default",
+      "industries": ["ai", "enterprise_software", "consumer", "retail", "ecommerce", "auto", "finance", "cloud", "energy", "media"],
+      "people": [
+        "person_jensen_huang",
+        "person_sam_altman",
+        "person_lei_jun",
+        "person_duan_yongping",
+        "person_jack_ma",
+        "person_dario_amodei",
+        "person_wang_ning",
+        "person_liu_qiangdong",
+        "person_elon_musk",
+        "person_pony_ma",
+        "person_steve_jobs",
+        "person_zhang_yiming"
+      ],
+      "companies": ["NVIDIA", "OpenAI", "Xiaomi", "小米", "BBK Electronics", "步步高", "OPPO", "vivo", "Anthropic", "Pop Mart", "泡泡玛特", "JD.com", "京东", "Tesla", "SpaceX", "xAI", "Neuralink", "Tencent", "腾讯", "Apple", "苹果", "Alibaba", "阿里巴巴", "Ant Group", "蚂蚁集团", "ByteDance", "字节跳动", "TikTok"],
+      "keywords": [
+        "AI agents",
+        "inference",
+        "enterprise AI",
+        "consumer technology",
+        "electric vehicles",
+        "long-term investing",
+        "business management",
+        "e-commerce",
+        "logistics",
+        "autonomous driving",
+        "social platforms",
+        "cloud computing",
+        "product design",
+        "large language models",
+        "AI startups",
+        "content platforms",
+        "recommendation systems",
+        "creator economy",
+        "frontier models",
+        "fintech",
+        "global business",
+        "AI safety"
+      ],
+      "push_channels": ["markdown"]
+    }
+  ],
+  "metadata": {
+    "name": "local-example",
+    "description": "Minimal seed config for local InsightCast V1 development."
+  }
+}
